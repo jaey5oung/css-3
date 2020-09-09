@@ -1,0 +1,11 @@
+.box {
+  box-sizing: border-box;
+  width: 480px;
+  display: block;
+  background-color: darkolivegreen;
+  color: white;
+}
+.boxbox {
+  width: 500px;
+  background-color: darkorange;
+}
