@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: blanchedalmond;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: -0.02em;
+}
+
+a {
+  font-size: 18px;
+  line-height: 20px;
+  color: #8492a6;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  background-color: #fff;
+}
+
+.tab-menu {
+  max-width: 540px;
+  border-bottom: 2px solid #fff;
+  background-color: #fff;
+}
+
+.tab-menu-item {
+  float: left;
+  margin-right: 16px;
+}
+.tab-menu::after {
+  content: "";
+  clear: left;
+  display: block;
+}
+.tab-menu-item a {
+  display: block;
+  padding: 16px 20px;
+  background-color: #fff;
+}
+.tab-menu-item.active a {
+  color: slateblue;
+  font-weight: 500;
+}
+.tab-menu-item.active {
+  border-bottom: 2px solid slateblue;
+}
